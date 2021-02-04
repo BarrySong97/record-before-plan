@@ -92,7 +92,6 @@ Images from any folder can be used by providing path to file. Path should be rel
 
 ![img](../static/img/logo.svg)
 
-
 ---
 
 ## Code
