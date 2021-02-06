@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 
-function Hello() {
+function Tool() {
   return (
     <Layout title="Hello">
       <div
@@ -13,11 +13,11 @@ function Hello() {
           fontSize: '20px',
         }}>
         <p>
-          Edit <code>pages/hello.js</code> and save to reload.
+         tool
         </p>
       </div>
     </Layout>
   );
 }
 
-export default Hello;
+export default Tool;

@@ -35,3 +35,20 @@
   height: 200px;
   width: 200px;
 }
+
+.leftSvg {
+ 
+  height: 300px;
+  width: 400px;
+}
+
+.rightSvg {
+  
+  height: 300px;
+  width: 400px;
+}
+
+.getStarted {
+  background: linear-gradient(90deg, #006dfe 11.3%, #20b7d9 161.54%);
+  color: white !important; 
+}

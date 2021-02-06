@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 
-function Blog() {
+function Showcase() {
   return (
     <Layout title="Hello">
       <div
@@ -13,11 +13,11 @@ function Blog() {
           fontSize: '20px',
         }}>
         <p>
-          Edit <code>pages/example</code> and save to reload.
+         showcase
         </p>
       </div>
     </Layout>
   );
 }
 
-export default Hello;
+export default Showcase;

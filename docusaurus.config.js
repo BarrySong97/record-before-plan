@@ -22,9 +22,9 @@ module.exports = {
           label: '开始',
           position: 'left',
         },
-        {to: 'example', label: '例子', position: 'left'},
-        {to: 'blog', label: 'Blog', position: 'left'},
-        {to: 'tool', label: '工具', position: 'left'},
+        { to: 'blog', label: 'Blog', position: 'left' },
+        { to: 'tool', label: '工具', position: 'left' },
+        { to: 'showcase', label: '例子', position: 'left' },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',

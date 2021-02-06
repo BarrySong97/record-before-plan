@@ -39,32 +39,27 @@ const features = [
   },
 ];
 
-function Feature({imageUrl, title, description}) {
-  const imgUrl = useBaseUrl(imageUrl);
-  return (
-    <div className={clsx('col col--4', styles.feature)}>
-      {imgUrl && (
-        <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
-        </div>
-      )}
-      <h3>{title}</h3>
-      <p>{description}</p>
-    </div>
-  );
-}
+
 
 function Home() {
   const context = useDocusaurusContext();
-  const {siteConfig = {}} = context;
+  const { siteConfig = {} } = context;
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>
+
+
+      <header className={clsx('hero', styles.heroBanner)}>
+        <img
+          alt="Docusaurus with Keytar"
+          src={useBaseUrl('img/undraw_developer_activity_bv83.svg')}
+          className={styles.rightSvg}
+        />
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <h1 className="hero__title">量化自我</h1>
+          <p className="hero__subtitle">记录觉知</p>
+
           <div className={styles.buttons}>
             <Link
               className={clsx(
@@ -72,23 +67,20 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
-              Get Started
+              开始
             </Link>
+
           </div>
+
         </div>
+        <img
+          alt="Docusaurus with Keytar"
+          src={useBaseUrl('img/undraw_Data_re_80ws.svg')}
+          className={styles.leftSvg}
+        />;
       </header>
       <main>
-        {features && features.length > 0 && (
-          <section className={styles.features}>
-            <div className="container">
-              <div className="row">
-                {features.map((props, idx) => (
-                  <Feature key={idx} {...props} />
-                ))}
-              </div>
-            </div>
-          </section>
-        )}
+
       </main>
     </Layout>
   );
