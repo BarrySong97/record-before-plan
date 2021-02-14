@@ -23,3 +23,23 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+
+.shape .wrapper {
+  background: url(https://tvseriescritic.files.wordpress.com/2016/10/stranger-things-bicycle-lights-children.jpg) center / cover no-repeat;
+  height: 300px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+
+.shape .title {
+  color: #fff;
+  text-align: center;
+  
+}
+
+
+

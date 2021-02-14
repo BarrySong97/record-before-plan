@@ -1,20 +1,22 @@
 module.exports = {
-  title: 'My Site',
+  title: '觉知-量化自我',
   tagline: 'The tagline of my site',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/chart-area.png',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'beware', // Usually your GitHub org/user name.
+  projectName: 'beware', // Usually your repo name.
   themeConfig: {
+
     navbar: {
       title: '觉知',
       logo: {
         alt: 'record-before-plan',
         src: 'img/chart-area.png',
       },
+      hideOnScroll: true,
       items: [
         {
           to: 'docs/',
@@ -22,9 +24,9 @@ module.exports = {
           label: '开始',
           position: 'left',
         },
-        { to: 'blog', label: 'Blog', position: 'left' },
-        { to: 'tool', label: '工具', position: 'left' },
         { to: 'showcase', label: '例子', position: 'left' },
+        { to: 'tool', label: '工具', position: 'left' },
+        { to: 'blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -94,6 +96,7 @@ module.exports = {
         },
         blog: {
           showReadingTime: true,
+          blogSidebarTitle: "近期文章",
           // Please change this to your repo.
           editUrl:
             'https://github.com/facebook/docusaurus/edit/master/website/blog/',

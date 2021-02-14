@@ -54,7 +54,7 @@ function Home() {
         <img
           alt="Docusaurus with Keytar"
           src={useBaseUrl('img/undraw_developer_activity_bv83.svg')}
-          className={styles.rightSvg}
+          className={styles.leftSvg}
         />
         <div className="container">
           <h1 className="hero__title">量化自我</h1>
@@ -76,7 +76,7 @@ function Home() {
         <img
           alt="Docusaurus with Keytar"
           src={useBaseUrl('img/undraw_Data_re_80ws.svg')}
-          className={styles.leftSvg}
+          className={styles.rightSvg}
         />;
       </header>
       <main>

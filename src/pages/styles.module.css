@@ -24,31 +24,25 @@
   justify-content: center;
 }
 
-.features {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
-}
 
-.featureImage {
-  height: 200px;
-  width: 200px;
-}
 
 .leftSvg {
- 
-  height: 300px;
-  width: 400px;
+  margin-left: 70px;
+  height: 600px;
+  width: 500px;
 }
 
 .rightSvg {
-  
-  height: 300px;
-  width: 400px;
+  margin-right: 70px;
+  height: 600px;
+  width: 500px;
 }
 
 .getStarted {
   background: linear-gradient(90deg, #006dfe 11.3%, #20b7d9 161.54%);
   color: white !important; 
 }
+
+
+
+
